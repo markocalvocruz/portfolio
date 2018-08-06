@@ -1,4 +1,44 @@
+/*==================================
+* Author        : "Marko Calvo-Cruz"
+* Version       : 1.0
+==================================== */
+
+/*==================================
+font-family: 'Monserrat', sans-serif;
+==================================== */
+
+
+/*=========== TABLE OF CONTENTS ===========
+1.  General css (Reset code)
+2.  Header
+3.  Welcome
+4.  Recent Work
+5.  Education
+6.  Skill
+7.  Experience
+8.  Profiles
+9.  Portfolio
+10. Clients
+11. Contact
+
+/*-------------------------------------
+    1.General css (Reset code)
+--------------------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing:border-box;
+}
 body {
+  overflow-x:hidden;
 
   background-position: center;
   color: white;
@@ -12,36 +52,81 @@ a {
   text-decorationcoration: none;
 }
 
-.blurb {
-  font-size: 40px;
+
+img {
+  margin: 30px 0 0 32px;
+  display: inline;
 }
+
+img{border:none;max-width:100%; height:auto;}
+
+
+h1 {
+  display: inline;
+}
+
+
+section {
+  overflow: auto;
+}
+
+html,body{
+  height: 100%;
+  position: relative;
+}
+
+ul li {
+  list-style: none;
+
+}
+
+
 .center {
   text-align: center;
 }
 
-#section-1 {
-  background: linear-gradient(#3B1E79, #773175, #C34871, #DB9673);
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 700px;
+
+.rotate-90 {
+  margin-left: 10px;
+  font-size: 30px;
+  display: inline-block;
+      -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+.section-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*=============Style css=========*/
+
+/*-------------------------------------
+        2. Header
+--------------------------------------*/
+
+.gradient-bg {
+    background: linear-gradient(#3B1E79, #773175, #C34871, #DB9673);
 
 }
 
-.intro {
-  font-weight: 700;
-  font-size: 5em;
-}
-.tint {
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: rgba(0, 0, 0, 0.25);
-}
 
+.gradient-bg:before{
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.25);
+    width:100%;
+    height:111%;
+}
+.top-area {
+    position: relative;
+    z-index: 9999;
+}
 
 #navbar-menu {
   margin-right: -1em;
@@ -61,6 +146,7 @@ a {
  list-style-type: none;
 }
 
+
 #propic {
   opacity: .2;
   float: right;
@@ -68,59 +154,53 @@ a {
   margin-right: 60px;
   height: 600px;
   width: auto;
-  position: absolute;
   bottom: 0;
   right: 10px;
 }
 #logo {
-  margin-top: -5.5rem;
+  margin-top: -2.5rem;
   margin-left: 52px;
   left: 0;
 }
 
+/*-------------------------------------
+        3. Welcome
+--------------------------------------*/
 
-.rotate-90 {
-  margin-left: 10px;
-  font-size: 30px;
-  display: inline-block;
-      -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Safari 3-8 */
-    transform: rotate(90deg);
+
+.blurb {
+  font-size: 40px;
 }
-
-
-img {
-  margin: 30px 0 0 32px;
-  display: inline;
+.intro {
+  font-weight: 700;
+  font-size: 5em;
 }
-
-h1 {
-  display: inline;
-}
-
-body {
-}
-
-section {
-  overflow: auto;
-}
-
-
-
-
-#section-2 {
-  position: absolute;
-  height: 300px;
-  top: 700px;
-  background-color: white;
+.tint {
+  z-index: 1;
+  height: 100%;
   width: 100%;
-  padding: 5rem 1rem;
-  text-align: center;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.25);
 }
 
-#section-2-title {
-  color: #427499;
 
+
+/*-------------------------------------
+        4.  Recent Work
+--------------------------------------*/
+
+.recent-work {padding: 50px 0 100px;}
+.recent-work-content {padding-top: 100px;}
+
+#recent-work {
+  background-color: white;
+  padding: 5rem 1rem;
+}
+
+#recent-work .section-heading {
+  color: #427499;
 }
 
 .view-more {
@@ -128,7 +208,7 @@ section {
   border-color: #427499;
   border-style: solid;
   border-radius: 8px;
-  padding:.5em 1rem;
+  padding: .5em 1rem;
 
 }
 
@@ -136,6 +216,7 @@ section {
   height: 300px;
   width: auto;
 }
+
 
 .fullscreen-bg {
     position: fixed;
@@ -156,26 +237,37 @@ section {
     height: 100%;
 }
 
+/*-------------------------------------
+        4.  From the Blog
+--------------------------------------*/
 
+#blog-highlights {
 
-#section-3 {
-  position: absolute;
-  height: 500px;
-  top: 1300px;
   background-color: #e2f0fe;
   width: 100%;
   padding: 5rem 1rem;
-  text-align: center;
 }
 
-#section-3-title {
+#blog-highlights .section-heading {
   color: #2d3033;
 }
 
-#section-3 a {
+.blog-name {
   color: #272727;
+  text-align: left;
+  justify-content: left;
+
 }
 
+#blog-section a {
+}
+
+.blog-link {
+  display: block;
+  float: center;
+  text-align: center;
+}
 .blog-date {
   color: #777;
+  text-align: right;
 }
