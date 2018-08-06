@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>helloU Cover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="44.1532506%" fx="50%" fy="44.1532506%" r="86.2885564%" id="radialGradient-1">
+            <stop stop-color="#FAFAFA" offset="0%"></stop>
+            <stop stop-color="#FFC611" offset="100%"></stop>
+        </radialGradient>
+        <path d="M26.7885423,42.7990175 C25.5355568,34.4219604 26.6613135,26.6626605 30.1658123,19.5211178 C33.7850377,12.1457825 39.838529,5.63874326 48.3262859,0 C56.3296661,5.75432334 62.1126102,12.2613626 65.6751183,19.5211178 C69.2376263,26.780873 70.5903617,34.8150746 69.7333247,43.6237225 C62.6314635,40.1710077 55.4957839,38.4446504 48.3262859,38.4446504 C41.2507131,38.4446504 34.2080783,40.1260712 27.1983817,43.4889128 C27.8398568,51.0149674 29.8883708,57.7661146 33.3439238,63.7423545 C36.9286727,69.9420338 41.9938217,75.2492906 48.5393707,79.6641249 C41.7270987,85.26871 34.2177579,88.3500102 26.0113484,88.9080253 C17.8049388,89.4660405 9.13448934,87.4849253 0,82.9646797 C0.989166011,73.1667559 3.7413978,64.9125516 8.25669536,58.2020668 C12.7076602,51.5871911 18.8849425,46.4528414 26.7885423,42.7990175 Z M69.9264916,42.967006 C78.1936123,46.0554887 84.6207647,51.0083901 89.2079488,57.8257102 C93.7951329,64.6430304 96.4120911,73.1311848 97.0588235,83.2901736 C88.0662773,87.3337741 79.5311014,89.0809392 71.4532958,88.5316688 C63.3754902,87.9823984 55.7308759,85.1350484 48.5194528,79.9896189 C55.0650018,75.5747845 60.1301508,70.2675277 63.7148998,64.0678485 C67.2996488,57.8681692 69.3701794,50.834555 69.9264916,42.967006 Z" id="path-2"></path>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-181.000000, -324.000000)">
+            <g id="Stacked-Group" transform="translate(181.000000, 324.000000)">
+                <g id="helloU-Cover">
+                    <g id="Group-7">
+                        <rect id="Rectangle-6" fill="url(#radialGradient-1)" x="0" y="0" width="300" height="300"></rect>
+                        <g id="Stacked-Group-3" transform="translate(73.000000, 64.000000)">
+                            <g id="Icon-Copy" transform="translate(28.000000, 0.000000)">
+                                <g id="Group" transform="translate(0.970588, 0.000000)">
+                                    <mask id="mask-3" fill="white">
+                                        <use xlink:href="#path-2"></use>
+                                    </mask>
+                                    <use id="Combined-Shape" fill="#F97E91" xlink:href="#path-2"></use>
+                                </g>
+                            </g>
+                            <text id="hello-U" font-family="Roboto-Medium, Roboto" font-size="50" font-weight="400" fill="#F97E91">
+                                <tspan x="0" y="160">hello U</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
